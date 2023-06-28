@@ -7,7 +7,7 @@ int main(void) {
     int prices_2[5] = { 1, 2, 3, 4, 5 };
     printf("prices_2 has these numbers in it:");
 
-    int size = sizeof(prices_2) / sizeof(prices_2[0]);  // calculate the number of bytes in the array
+    int size = sizeof(prices_2) / sizeof(prices_2[0]);  // calculate the number of items in the array
 
     for (int i = 0; i < size; i++) {
         printf(" %u", prices_2[i]);
