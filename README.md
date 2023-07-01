@@ -83,7 +83,23 @@ printf("%p", &age); /* 0x7ffeef7dcb9c */
 
 - `stdio.h`
 - `string.h`
+- `stdlib.h`
+
+# Pre-Processor
+
+- `#include`
+- `#define`
+- `#if`, `#else` & `#endif`
+- `#ifdef` & `#ifndef`
+
+## Predefined Symbol Constants
+
+- `__LINE__` translates to the current line in the source code file
+- `__FILE__` translates to the name of the file
+- `__DATE__` translates to the compilation date, in the `Mmm gg aaaa` format
+- `__TIME__` translates to the compilation time, in the `hh:mm:ss` format
 
 # To Do:
 
 - [ ] Fill out [Standard Libraries](#standard-libraries)
+
